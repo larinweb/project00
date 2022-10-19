@@ -50,35 +50,35 @@ h1 {
 /* ====== END Header ====== */
 /* Media Queries–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Smaller than full-width */
-@media (max-width: 1150px) {
+@media (max-width:1150px) {
 	.row {
 		width: 950px;
 	}
 }
 
 /* Smaller than desktop */
-@media (max-width: 959px) {
+@media (max-width:959px) {
 	.row {
 		width: 750px;
 	}
 }
 
 /* Smaller than tablet */
-@media (max-width: 767px) {
+@media (max-width:767px) {
 	.row {
 		width: 530px;
 	}
 }
 
 /* Smaller than phablet (also point when grid becomes active) */
-@media (max-width: 560px) {
+@media (max-width:560px) {
 	.row {
 		width: 400px;
 	}
 }
 
 /* Smaller than mobile */
-@media (max-width: 420px) {
+@media (max-width:420px) {
 	.row {
 		width: 290px;
 	}
