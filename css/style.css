@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+p {
+	font-size: 12px;
+}
+
+body {
+	font-size: 20px;
+}
+
+body div {
+	font-size: 15px;
+}
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	position: relative;
+	min-width: 320px;
+	font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+	color: #3c6;
+}
+
+.wrp {
+	width: 100%;
+}
+
+.row {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/* ====== START Header ====== */
+.hdr_wrp {
+	background-image: url(../images/bg.png);
+	background-repeat: repeat;
+	background-size: 85px;
+	height: 50px;
+}
+
+/* ====== END Header ====== */
+/* Media Queries–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Smaller than full-width */
+@media (max-width: 1150px) {
+	.row {
+		width: 950px;
+	}
+}
+
+/* Smaller than desktop */
+@media (max-width: 959px) {
+	.row {
+		width: 750px;
+	}
+}
+
+/* Smaller than tablet */
+@media (max-width: 767px) {
+	.row {
+		width: 530px;
+	}
+}
+
+/* Smaller than phablet (also point when grid becomes active) */
+@media (max-width: 560px) {
+	.row {
+		width: 400px;
+	}
+}
+
+/* Smaller than mobile */
+@media (max-width: 420px) {
+	.row {
+		width: 290px;
+	}
+}
+
+/* ====== END CSS ====== */
+/*# sourceMappingURL=style.css.map */
